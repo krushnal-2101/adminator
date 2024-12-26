@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Roboto, -apple-system,system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;;
+}
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.d-flex-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    border: 1px solid rgba(128, 128, 128, 0.301);
+    width: 16%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.bold a{
+     text-decoration: none;
+     color: black !important;
+     font-weight: 450;
+     font-size: 19px;
+     letter-spacing: 1px;
+     display: inline-block;
+   margin:0px 0px 20px 30px;
+   
+     /* padding-left: 20px; */
+}
+
+.box1{
+    border: 1px solid rgba(128, 128, 128, 0.301);
+    width: 100%;
+    height: 70px;
+
+}
+.start{}
+.icon {
+    column-gap: 20px;
+    font-size: 17px;
+    color:rgba(0, 0, 0, 0.589);
+   
+}
+.icon p{
+    padding: 10px 10px 0px 0px;
+    font-size: 19px;
+}
+.text-2 img{
+   border-radius: 50%;
+}
+.text-2 p{
+    padding:10px 10px 0px 10px;
+    color: rgba(0, 0, 0, 0.774);
+}
+.text-1 img{
+    padding-left: 20px;
+}
+.box3 {
+    border:1px solid rgba(128, 128, 128, 0.384);
+    width: 16%;
+    padding: 5px 20px;
+    height: 100vh;
+    overflow: hidden;
+ 
+}
+
+.ri-home-4-line{
+  color:#2196f3;
+  font-size: 22px;
+ 
+}
+
+
+
+
+/* iconsection */
+
+
+.subside{
+    margin: 23px;
+}
+.subside button{
+    font-size: 20px;
+    color: gray;
+    border: none;
+    background-color: white ;
+}
+.subside button:hover{
+    color: black;
+}
+.fa-magnifying-glass{
+    padding: 28px 0px 0px 5px;
+    color: gray;
+}
+.fa-calendar-days{
+    font-size: 19px;
+    color: red;
+    padding-left: 3px;
+}
+.fa-message{
+    color: purple;
+    padding-left: 3px;
+    font-size: 19px;
+}
+.fa-chart-line
+{ font-size: 19px;
+    color: #2196f3;
+    padding-left: 3px;
+}
+.fa-chart-simple{
+    color: rgba(0, 0, 255, 0.644);
+    font-size: 19px;
+    padding-left: 3px;
+}
+.e1  {
+    color:rgba(165, 42, 42, 0.747);
+  font-size: 18px;
+  padding-left: 3px;
+}
+.ri-pencil-line{
+    color:#2196f3 ;
+    font-size: 20px;
+}
+.fa-palette{
+  color: rgb(214, 82, 104);
+  font-size: 20px;
+}
+.ri-map-2-line{
+    color: rgba(128, 0, 128, 0.808);
+    font-size: 21px;
+}
+.ri-checkbox-multiple-blank-line{
+    color: rgba(255, 0, 0, 0.651);
+    font-size: 21px;
+}
+.ri-menu-line{
+    color: green;
+    font-size: 21px;
+}
+.ri-archive-drawer-line{
+    color: rgba(255, 166, 0, 0.849);
+    font-size: 21px;
+}
+
+
+
+
+
+
+
+
+
+.text-3 a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.699);
+    padding: 10px 0px 0px 20px;
+}
+.text-3 a:hover{
+    color: black;
+}
+.align-center{
+    align-items: center;
+}
+
+.padding{
+    padding-bottom: 28px;
+}
+.padding2{
+    padding-bottom: 35px;
+    padding-right: 20px;
+}
+.p2{
+    padding-left: 1px;
+}
+
+
+
+/* .box:hover{
+    width: 4%;
+} */
+
+/* .box3:hover{
+    width: 4%;
+} */
+ .hideside{
+    width: 4% ;
+ }
+ .text4{
+    width:4%;
+ }
